@@ -1,0 +1,46 @@
+on:
+  schedule:
+    # in UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update_answers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+            python-version: '3.14'
+      - name: setup nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Update answers
+        env:
+            UPDATE_USERNAME: ${{ vars.UPDATE_USERNAME }}
+            UPDATE_EMAIL: ${{ vars.UPDATE_EMAIL }}
+        run: |
+
+          git config --global user.name "${UPDATE_USERNAME}"
+          git config --global user.email "${UPDATE_EMAIL}"
+          UPDATE_DATE=$(date +%Y-%m-%d)
+          cp -p answers.json /tmp/answers.json
+          echo "UPDATE_DATE: $UPDATE_DATE"
+          cp answers.json /tmp/answers.json
+
+          python code/scripts/word-list.py update answers -a answers.json
+          if diff -q /tmp/answers.json answers.json; then
+            echo "Answers have not changed, skipping commit"
+          else
+            echo "Answers have changed, committing changes"
+            git add answers.json
+            git commit -m "Update answers on $UPDATE_DATE"
+            git push
+          fi

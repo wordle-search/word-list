@@ -1,0 +1,14 @@
+*.gz
+.wrangler/
+data/
+words.json.gz
+words_dictionary.json
+.python-version
+__pycache__/
+
+node_modules/
+act/.secrets
+act/.vars
+.env
+.envrc
+*.log
