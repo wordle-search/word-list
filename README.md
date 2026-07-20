@@ -21,3 +21,4 @@
 - [answers.json](./answers.json): Wordle過去問(2026/7/18分以降は自動更新)
   - 毎日15:00JSTに自動更新しています
 - [words.json](./words.json): 2026/6/22現在の単語リスト
+- [wikipedia.json](./wikipedia.json): 「Wikipediaタイトル」の元ネタ。英語版Wikipediaの記事タイトルを「アルファベット５文字」でフィルタ舌単語リスト
