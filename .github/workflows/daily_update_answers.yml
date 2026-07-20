@@ -30,7 +30,6 @@ jobs:
 
           git config --global user.name "${UPDATE_USERNAME}"
           git config --global user.email "${UPDATE_EMAIL}"
-          git config --globl -l
           UPDATE_DATE=$(date +%Y-%m-%d)
           cp -p answers.json /tmp/answers.json
           echo "UPDATE_DATE: $UPDATE_DATE"
