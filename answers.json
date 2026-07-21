@@ -12990,5 +12990,19 @@
         "days_since_launch": 1830,
         "editor": "Tracy Bennett",
         "print_date": "2026-06-23"
+    },
+    {
+        "id": 880,
+        "solution": "diver",
+        "days_since_launch": 1857,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-07-20"
+    },
+    {
+        "id": 1575,
+        "solution": "churn",
+        "days_since_launch": 1856,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-07-19"
     }
 ]
