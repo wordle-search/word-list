@@ -13081,5 +13081,12 @@
         "days_since_launch": 1868,
         "editor": "Tracy Bennett",
         "print_date": "2026-07-31"
+    },
+    {
+        "id": 1445,
+        "solution": "slush",
+        "days_since_launch": 1869,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-08-01"
     }
 ]
