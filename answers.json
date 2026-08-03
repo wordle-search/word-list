@@ -13088,5 +13088,12 @@
         "days_since_launch": 1869,
         "editor": "Tracy Bennett",
         "print_date": "2026-08-01"
+    },
+    {
+        "id": 1185,
+        "solution": "penal",
+        "days_since_launch": 1870,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-08-02"
     }
 ]
