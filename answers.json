@@ -13228,5 +13228,12 @@
         "days_since_launch": 1889,
         "editor": "Tracy Bennett",
         "print_date": "2026-08-21"
+    },
+    {
+        "id": 1889,
+        "solution": "prawn",
+        "days_since_launch": 1890,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-08-22"
     }
 ]
