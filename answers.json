@@ -13438,5 +13438,12 @@
         "days_since_launch": 1919,
         "editor": "Tracy Bennett",
         "print_date": "2026-09-20"
+    },
+    {
+        "id": 4763,
+        "solution": "pager",
+        "days_since_launch": 1920,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-09-21"
     }
 ]
