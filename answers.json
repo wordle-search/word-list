@@ -13578,5 +13578,12 @@
         "days_since_launch": 1939,
         "editor": "Tracy Bennett",
         "print_date": "2026-10-10"
+    },
+    {
+        "id": 5261,
+        "solution": "uncap",
+        "days_since_launch": 1940,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-10-11"
     }
 ]
