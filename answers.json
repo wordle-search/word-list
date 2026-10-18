@@ -13620,5 +13620,12 @@
         "days_since_launch": 1945,
         "editor": "Tracy Bennett",
         "print_date": "2026-10-16"
+    },
+    {
+        "id": 1267,
+        "solution": "gaffe",
+        "days_since_launch": 1946,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-10-17"
     }
 ]
