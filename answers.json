@@ -13690,5 +13690,12 @@
         "days_since_launch": 1955,
         "editor": "Tracy Bennett",
         "print_date": "2026-10-26"
+    },
+    {
+        "id": 1390,
+        "solution": "bingo",
+        "days_since_launch": 1956,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-10-27"
     }
 ]
