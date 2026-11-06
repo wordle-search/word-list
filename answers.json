@@ -13753,5 +13753,12 @@
         "days_since_launch": 1964,
         "editor": "Tracy Bennett",
         "print_date": "2026-11-04"
+    },
+    {
+        "id": 5270,
+        "solution": "parch",
+        "days_since_launch": 1965,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-11-05"
     }
 ]
