@@ -13802,5 +13802,12 @@
         "days_since_launch": 1971,
         "editor": "Tracy Bennett",
         "print_date": "2026-11-11"
+    },
+    {
+        "id": 5201,
+        "solution": "karat",
+        "days_since_launch": 1972,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-11-12"
     }
 ]
