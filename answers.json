@@ -13844,5 +13844,12 @@
         "days_since_launch": 1977,
         "editor": "Tracy Bennett",
         "print_date": "2026-11-17"
+    },
+    {
+        "id": 2629,
+        "solution": "blurt",
+        "days_since_launch": 1978,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-11-18"
     }
 ]
