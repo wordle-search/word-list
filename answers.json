@@ -13865,5 +13865,12 @@
         "days_since_launch": 1980,
         "editor": "Tracy Bennett",
         "print_date": "2026-11-20"
+    },
+    {
+        "id": 4794,
+        "solution": "stent",
+        "days_since_launch": 1981,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-11-21"
     }
 ]
