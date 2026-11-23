@@ -13872,5 +13872,12 @@
         "days_since_launch": 1981,
         "editor": "Tracy Bennett",
         "print_date": "2026-11-21"
+    },
+    {
+        "id": 4823,
+        "solution": "upend",
+        "days_since_launch": 1982,
+        "editor": "Tracy Bennett",
+        "print_date": "2026-11-22"
     }
 ]
